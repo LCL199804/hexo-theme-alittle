@@ -19,9 +19,9 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+ # Friends:
+  # url: /friends
+  # icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -64,10 +64,10 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: false
+  enable: true
   showTitle: true
-  title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  title: 欢迎访问我的博客
+  text: 没有谁看的时候，我也会努力更新的！如果你恰好看到，并觉得有所收获或有所疑问，欢迎留言讨论！
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -125,13 +125,13 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/LCL199804/hexo-theme-alittle
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
+  github:  https://github.com/LCL199804
   email: 1263185817@qq.com
   facebook: # https://www.facebook.com/
   twitter: # https://twitter.com/
@@ -257,7 +257,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
@@ -312,7 +312,7 @@ valine:
   visitor: true
   avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: 'just go go' # Comment Box placeholder
+  placeholder: '畅所欲言吧！' # Comment Box placeholder
   background: # /medias/comment_bg.png
 
 # The configuration of the MiniValine comment module is not activated by default.
@@ -337,7 +337,7 @@ minivaline:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/LCL199804/hexo-theme-alittle
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -367,8 +367,8 @@ googleAnalytics:
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: bcdd102459029da594cbc21e0f012c3c
 
 # 百度搜索资源平台提交链接
 baiduPush: true
@@ -484,7 +484,7 @@ canvas_nest:
 
 # 背景静止彩带.
 ribbon:
-  enable: true
+  enable: false
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
@@ -492,7 +492,7 @@ ribbon:
 
 # 背景动态彩带.
 ribbon_dynamic:
-  enable: true
+  enable: false
 
 # sharejs文章分享模块.
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
@@ -509,7 +509,6 @@ addthis:
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
   enable: true
-  title: 进步一点点
   loop: true # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
@@ -517,9 +516,6 @@ subtitle:
   backSpeed: 50 # 删除速度
   sub1: 往昔不可谏，来者犹可追！
   sub2: 逝者如斯夫，不舍昼夜！
-  sub3: 人生如逆旅，我亦是行人！
-  sub4: 心有猛虎，细嗅蔷薇！
-  sub5: 扬天大笑出门去，我辈其实蓬蒿人。其实蓬蒿人。
 
 # 手机二级菜单.
 navMenu:
